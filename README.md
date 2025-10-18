@@ -24,7 +24,7 @@ You can download the compiled JAR directly from here:
 
 ---
 
-### ⚙️ Usage Example
+### ⚙️ V.Simple Usage Example
 
 ```java
 // 1. Import the GreedyBinner class
