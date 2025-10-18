@@ -15,5 +15,37 @@ It uses a **greedy binning algorithm** that dynamically merges or splits bins ba
 
 ---
 
-## 🏗️ Project Structure
+### 📦 Download
+
+You can download the compiled JAR directly from here:  
+👉 [GreedyBinner.jar](https://github.com/faisalbahadurhu-hue/GreedyBinnerProject/raw/main/GreedyBinner.jar)
+
+*(Click the link above to download the executable JAR file.)*
+
+---
+
+### ⚙️ Usage Example
+
+```java
+// 1. Import the GreedyBinner class
+import greedyhisto.GreedyBinner;
+import greedyhisto.DisplayBinUtil;
+import java.util.List;
+public class Example {
+    public static void main(String[] args) {
+        GreedyBinner binner = new GreedyBinner();
+
+        // 2. Ingest some data
+        double[] data = {1, 1, 2, 5, 100, 101, 105};
+        for (double d : data) {
+            binner.ingest(d);
+        }
+        // 3. Retrieve bins
+        List<BinEntry> bins = binner.getBins();
+        //  4. Print labels with count
+      for (BinEntry bin : bins) {
+        System.out.println(bin.getRangeLabel()+"  "+bin.getCount());
+            }
+    }
+}
 
