@@ -46,6 +46,13 @@ public class Example {
       for (BinEntry bin : bins) {
         System.out.println(bin.getRangeLabel()+"  "+bin.getCount());
             }
+        // Build clean display bins — e.g., aim for ~5, and don’t use step < 10
+            List lushBins = DisplayBinsUtil.to125DisplayBins(snapshot, 5, 10);
+           //  4. Print lush labels with count
+      for (BinEntry bin : lushBins) {
+        System.out.println(bin.getRangeLabel()+"  "+bin.getCount());
+            }
+
     }
 }
 
