@@ -18,7 +18,7 @@ It uses a **greedy binning algorithm** that dynamically merges or splits bins ba
 ### 📦 Download
 
 You can download the compiled JAR directly from here:  
-👉 [GreedyBinner.jar](https://github.com/faisalbahadurhu-hue/GreedyBinnerProject/raw/main/GreedyBinner.jar)
+👉 [GreedyBinner.jar](https://github.com/faisalbahadurhu/GreedyBinnerProject/raw/main/GreedyBinner.jar)
 
 *(Click the link above to download the executable JAR file.)*
 
