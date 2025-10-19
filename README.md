@@ -66,8 +66,8 @@ public class Example {
 GreedyBinner (TGB) was evaluated against popular quantile estimators such as **t-digest** and **DDSketch**.  
 The comparison below highlights its **superior accuracy and stability** under highly skewed data distributions.
 
-#### 🧪 Relative Error Comparison
+#### 🧪 Relative Error Comparison   
 
-![Relative Error Comparison](https://github.com/faisalbahadurhu-hue/GreedyBinnerProject/raw/main/image.png)
+![Relative Error Comparison](https://github.com/faisalbahadurhu/GreedyBinnerProject/blob/main/image.png)
 
 *Figure 1: Relative error comparison between TGB, t-digest, and DDSketch on skewed datasets.*
