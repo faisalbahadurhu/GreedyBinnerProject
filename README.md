@@ -61,7 +61,7 @@ public class Example {
 }
 ```
 
-### 📊 TGB vs Prevalent Schemes
+### 📊 GB vs Prevalent Schemes
 
 GreedyBinner (GB) was evaluated against popular quantile estimators such as **t-digest (TD)**  **DDSketch (DD)** **HdrHistogram (HDR)** **BMLhistogram (BML)** **Dynahist (DH)**.  
 The comparison below highlights its **superior accuracy and stability** under highly skewed data distributions.
