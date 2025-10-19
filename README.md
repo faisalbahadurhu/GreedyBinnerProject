@@ -74,12 +74,12 @@ The comparison below highlights its **superior accuracy and stability** under hi
 #### 🧪 Query speed comparison   
 
 ![Relative Error Comparison](https://github.com/faisalbahadurhu/GreedyBinnerProject/blob/main/quantilequeryPerformance.png)
-*Figure 1: Quantile query speed comparison.*
+
 
 #### 🧪 Ingestion speed comparison   
 
 ![Relative Error Comparison](https://github.com/faisalbahadurhu/GreedyBinnerProject/blob/main/ingestionRate.png)
-*Figure 1: Ingestion speed comparison.*
+
 
 
 
