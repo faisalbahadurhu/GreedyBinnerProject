@@ -71,3 +71,7 @@ The comparison below highlights its **superior accuracy and stability** under hi
 ![Relative Error Comparison](https://github.com/faisalbahadurhu/GreedyBinnerProject/blob/main/image.png)
 
 *Figure 1: Relative error comparison.*
+#### 🧪 Query speed comparison   
+
+![Relative Error Comparison](https://github.com/faisalbahadurhu/GreedyBinnerProject/blob/main/quantilequeryPerformance.png)
+
