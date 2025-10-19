@@ -59,3 +59,9 @@ public class Example {
         }
     }
 }
+---
+### 📊 TGB vs Prevalent Schemes
+
+#### Relative Error Comparison
+
+![Relative Error Comparison](https://github.com/faisalbahadurhu/GreedyBinnerProject/raw/main/image.png)
