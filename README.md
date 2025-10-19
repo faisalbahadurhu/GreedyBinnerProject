@@ -66,19 +66,26 @@ public class Example {
 GreedyBinner (GB) was evaluated against popular quantile estimators such as **t-digest (TD)**  **DDSketch (DD)** **HdrHistogram (HDR)** **BMLhistogram (BML)** **Dynahist (DH)**.  
 The comparison below highlights its **superior accuracy and stability** under highly skewed data distributions.
 
-#### 🧪 Relative Error Comparison   
+#### Relative Error Comparison   
 
 ![Relative Error Comparison](https://github.com/faisalbahadurhu/GreedyBinnerProject/blob/main/image.png)
 
 
-#### 🧪 Query speed comparison   
+#### Query speed comparison   
 
 ![Relative Error Comparison](https://github.com/faisalbahadurhu/GreedyBinnerProject/blob/main/quantilequeryPerformance.png)
 
 
-#### 🧪 Ingestion speed comparison   
+#### Ingestion speed comparison   
 
 ![Relative Error Comparison](https://github.com/faisalbahadurhu/GreedyBinnerProject/blob/main/ingestionRate.png)
+
+#### Comparing JVM-HEAP Consumption   
+
+![Relative Error Comparison](https://github.com/faisalbahadurhu/GreedyBinnerProject/blob/main/Heap.png)
+#### Comparing CPU Consumption   
+
+![Relative Error Comparison](https://github.com/faisalbahadurhu/GreedyBinnerProject/blob/main/cpu.png)
 
 
 
