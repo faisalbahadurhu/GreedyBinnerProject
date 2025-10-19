@@ -1,6 +1,6 @@
 # 🧠 GreedyBinner
 
-**GreedyBinner** is an Edge-level(single-machine) adaptive histogram construction framework that balances **accuracy**, **compactness**, and **real-time interpretability**.  
+**GreedyBinner** is an Edge-level (single-machine) adaptive histogram construction framework that balances **accuracy**, **compactness**, and **real-time interpretability**.  
 It uses a **greedy binning algorithm** that dynamically merges or splits bins based on data distribution, protecting key quantiles while limiting bin count and width.
 
 ---
@@ -18,7 +18,7 @@ It uses a **greedy binning algorithm** that dynamically merges or splits bins ba
 ### 📦 Download
 
 You can download the compiled JAR directly from here:  
-👉 [GreedyBinner.jar](https://github.com/faisalbahadurhu/GreedyBinnerProject/raw/main/GreedyBinner.jar)
+👉 [GreedyBinner.jar](https://github.com/faisalbahadurhu-hue/GreedyBinnerProject/raw/main/GreedyBinner.jar)
 
 *(Click the link above to download the executable JAR file.)*
 
@@ -31,6 +31,7 @@ You can download the compiled JAR directly from here:
 import greedyhisto.GreedyBinner;
 import greedyhisto.DisplayBinUtil;
 import java.util.List;
+
 public class Example {
     public static void main(String[] args) {
         GreedyBinner binner = new GreedyBinner();
@@ -40,27 +41,21 @@ public class Example {
         for (double d : data) {
             binner.ingest(d);
         }
+
         // 3. Retrieve bins
         List<BinEntry> bins = binner.getBins();
-        //  4. Print labels with count
-      for (BinEntry bin : bins) {
-        System.out.println(bin.getRangeLabel()+"  "+bin.getCount());
-            }
-        // Build clean display bins — e.g., aim for ~5, and don’t use step < 10
-            List lushBins = DisplayBinsUtil.to125DisplayBins(snapshot, 5, 10);
-           //  4. Print lush labels with count
-      for (BinEntry bin : lushBins) {
-        System.out.println(bin.getRangeLabel()+"  "+bin.getCount());
-            }
 
+        // 4. Print labels with count
+        for (BinEntry bin : bins) {
+            System.out.println(bin.getRangeLabel() + "  " + bin.getCount());
+        }
+
+        // Build clean display bins — e.g., aim for ~5, and don’t use step < 10
+        List lushBins = DisplayBinsUtil.to125DisplayBins(snapshot, 5, 10);
+
+        // 5. Print lush labels with count
+        for (BinEntry bin : lushBins) {
+            System.out.println(bin.getRangeLabel() + "  " + bin.getCount());
+        }
     }
 }
----
-### 📊 GB vs Prevalent Schemes
-
-#### Relative Error Comparison
-
-![Relative Error Comparison](https://github.com/faisalbahadurhu-hue/GreedyBinnerProject/raw/main/image.png)
-
-
-
