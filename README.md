@@ -85,7 +85,10 @@ The comparison below highlights its **superior accuracy and stability** under hi
 ![Relative Error Comparison](https://github.com/faisalbahadurhu/GreedyBinnerProject/blob/main/Heap.png)
 #### Comparing CPU Consumption   
 
-![Relative Error Comparison](https://github.com/faisalbahadurhu/GreedyBinnerProject/blob/main/cpu.png)
+![Relative Error Comparison](https://github.com/faisalbahadurhu/GreedyBinnerProject/blob/main/cpu.png)    
+#### Histogram Visualization comparison   
+
+![Relative Error Comparison](https://github.com/faisalbahadurhu/GreedyBinnerProject/blob/main/interpretability.png)
 
 
 
