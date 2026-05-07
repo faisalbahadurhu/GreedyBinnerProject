@@ -87,11 +87,15 @@ The comparison below highlights its **superior accuracy and stability** under hi
 
 ![Relative Error Comparison](https://github.com/faisalbahadurhu/GreedyBinnerProject/blob/main/cpu.png)    
 #### Histogram Visualization comparison   
+#### Visualization comparison on Highly skewed dataset
 
 ![Relative Error Comparison](https://github.com/faisalbahadurhu/GreedyBinnerProject/blob/main/interpretability2.png)
+#### Visualization comparison on Highly Normal distribution
 
 ![Relative Error Comparison](https://github.com/faisalbahadurhu/GreedyBinnerProject/blob/main/1.png)
+#### Visualization comparison on Highly Poison distribution
 ![Relative Error Comparison](https://github.com/faisalbahadurhu/GreedyBinnerProject/blob/main/2.png)
+#### Visualization comparison on Highly Exponential distribution
 ![Relative Error Comparison](https://github.com/faisalbahadurhu/GreedyBinnerProject/blob/main/3.png)
 
 #### Entropy-Awareness comparison
