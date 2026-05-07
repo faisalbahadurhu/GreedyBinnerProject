@@ -89,6 +89,11 @@ The comparison below highlights its **superior accuracy and stability** under hi
 #### Histogram Visualization comparison   
 
 ![Relative Error Comparison](https://github.com/faisalbahadurhu/GreedyBinnerProject/blob/main/interpretability2.png)
+
+![Relative Error Comparison](https://github.com/faisalbahadurhu/GreedyBinnerProject/blob/main/1.png)
+![Relative Error Comparison](https://github.com/faisalbahadurhu/GreedyBinnerProject/blob/main/2.png)
+![Relative Error Comparison](https://github.com/faisalbahadurhu/GreedyBinnerProject/blob/main/3.png)
+
 #### Entropy-Awareness comparison
   ![Relative Error Comparison](https://github.com/faisalbahadurhu/GreedyBinnerProject/blob/main/Entropy.png)
 
