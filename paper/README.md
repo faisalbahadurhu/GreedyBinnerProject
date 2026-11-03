@@ -5,4 +5,4 @@ describing the GreedyBinner framework.
 
 ## Accepted Manuscript
 
-[Download/View Accepted Manuscript](GreedyBinner_Accepted_Manuscript.pdf)
+[Download/View Accepted Manuscript](GreedyBinner.pdf)
